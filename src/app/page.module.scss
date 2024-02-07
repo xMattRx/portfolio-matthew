@@ -13,7 +13,12 @@
     flex-direction: row;
     padding: 40px 20px;
   }
-
+  &__title{
+    text-align: center;
+    @media screen and (min-width: 1000px) {
+      text-align: initial;
+    }
+  }
 
   &__menu{
     display: flex;
@@ -41,37 +46,179 @@
   }
 }
 //Header
-
 //introducao
-.introducao{
+.introduction {
   max-width: 1200px;
   padding: 40px 20px;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: 1fr 2fr;
-  gap: 100px;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  gap: 20px; 
   align-items: center;
-  &__image{
-    width:360px;
-    height:520px;
+  cursor: default;
+
+  @media (min-width: 400px) {
+    gap: 40px;
   }
+
+  @media (min-width: 800px) {
+    grid-template-columns: 1fr;
+    gap: 100px;
+  }
+
+  @media (min-width: 1000px) {
+    grid-template-columns: 1fr 2fr;
+  }
+
   &__title{
-    font-size: 4.5rem;
+    font-size: 2rem; 
     line-height: 1.125;
-    margin-bottom: 30px;
+    margin-bottom: 20px; 
     position: relative;
+    @media (min-width: 400px) {
+      font-size: 3rem;
+    }
+
+    @media (min-width: 800px) {
+      font-size: 4.5rem;
+      margin-bottom: 30px;
+    }
 
     &::before{
       content: "";
       display: block;
-      width: 130px;
-      height: 100px;
-      background: url('./assets/detalhe.svg') no-repeat;
+      width: 30px;
+      height: 10px;
+      background: url("./assets/detalhe.svg") no-repeat center;
       position: absolute;
-      top: -15px;
-      left: -40px;
       z-index: -1;
+      top: -12px; 
+      left: 0;
+      @media (min-width: 400px) {
+        width: 30px;
+        height: 10px;
+        left: 2px;
+        top: -10px
+      }
+      @media (min-width: 800px) {
+        width: 130px;
+        height: 100px;
+        left: -40px;
+        top: -15px;
+      } 
     }
   }
+
+  &__description{
+    font-size: 1.5rem;
+    color: #525252;
+  }
+
+  &__image{
+    display: none;
+
+    @media (min-width: 1000px) {
+      display: block; 
+    }
+  }
+
 }
 //introducao
+
+//experiencia
+.experience{
+  max-width: 100%;
+  padding: 40px 20px;
+  margin: 0 auto;
+  display: grid;
+  gap: 40px;
+  grid-template-columns: 1fr;
+
+  @media(min-width: 800px) {
+    max-width: 1200px;
+    grid-template-columns: 1fr 2fr;
+    gap: 100px;
+  }
+}
+.experience__description{
+  font-size: 1.25rem;
+  line-height: 1.33;
+  max-width: 40ch;
+  margin-bottom: 60px;
+  color: #525252;
+
+  @media(min-width: 800px) {
+    font-size: 1.5rem;
+  }
+}
+.experience__description strong{
+  color: #141414;
+}
+.company{
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+  padding: 20px;
+  background: #f5f5f5;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  position: relative;
+
+  @media(min-width: 400px) {
+    grid-template-columns: 1fr 1fr;
+    gap: 10px 20px;
+  }
+
+  &::before{
+    content: '';
+    display: block;
+    width: 4px;
+    height: 20px;
+    background: linear-gradient(#b6f829,#67dd0a);
+    position: absolute;
+    top: 20px;
+    left: -4px;
+  }
+}
+.company__year{
+  position: initial;
+  color: #525252;
+  font-size: 0.875rem;
+  text-align: left;
+  order: 1;
+
+  @media(min-width: 800px) {
+    position: absolute;
+    top: 22px;
+    left: -100px;
+    width: 80px;
+    text-align: initial;
+    order: initial;
+  }
+}
+.company__title{
+  font-size: 1.125rem;
+  line-height: 1.1;
+  font-weight: bold;
+}
+.company__description{
+  font-size: 0.875rem;
+  line-height: 1.4;
+  color: #525252;
+}
+.company__skills{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-content: flex-start;
+}
+.company__skills li{
+  font-size: 0.875rem;
+  line-height: 1.4;
+  border-radius: 4px;
+  background-color: #fff;
+  padding: 5px 10px;
+}
+
+//experiencia
