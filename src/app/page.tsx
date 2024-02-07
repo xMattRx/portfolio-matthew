@@ -56,9 +56,48 @@ export default function Home() {
               <li>React JS</li>
             </ul>
           </div>
+      </div>
+    </section>
+
+    <section className={styles.formation} id="formacao" aria-label="Formação">
+      <div className={styles.formation__container}>
+        <h2 className="subtitle" style={{color: "#000000"}}>Formação</h2>
+
+        <div>
+          <p className={styles.formation__text}><strong>Bacharelado</strong> em <strong>Engenharia de Software na PUC Minas</strong>. Além disso me mantenho me mantenho atualizado nas tecnologias de mercado por meio de cursos online.</p>
+
+          <ul className={styles.formation__colleges}>
+            <li className={styles.formation__college}>
+              <span className={styles.formation__type}>Bacharel</span>
+              <h3 className={styles.formation__course}>Engenharia de Software</h3>
+              <span className={styles.formation__institution}>PUC MG</span>
+            </li>
+          </ul>
+
+          <div className={styles.formation__extra}>
+            <div className={styles.formation__courses}>
+                <h3>Cursos Intensivos</h3>
+                <ul>
+                  <li>Formação React JS - Alura <span>100h</span></li>
+                </ul>
+            </div>
+
+            <div className={styles.formation__languages}>
+                <h3>Idiomas</h3>
+                <ul>
+                  <li>Inglês <span>/ Intermediário</span></li>
+                </ul>
+            </div>
+          </div>
+
+        </div>
 
       </div>
     </section>
+    <footer>
+      
+    </footer>
+
 
     </>
     
