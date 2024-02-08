@@ -1,0 +1,45 @@
+.footer{
+  background: #000000;
+
+
+  &__container{
+    align-items: center;
+    max-width: 1200px;
+    padding: 120px 20px 60px 20px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 100px;
+
+    
+    @media (max-width: 800px){
+      grid-template-columns: 1fr;
+      gap: 40px;
+    }
+  }
+
+  &__text{
+    color: #ccc;
+    font-size: 1.5rem;
+    line-height: 1.33;
+    
+  }
+  &__contact{
+    & li{
+      font-weight: bold;
+      font-size: 2.25rem;
+      line-height: 1.1;
+      color: #fff;
+      margin-bottom: 30px;
+      @media (max-width: 800px){
+        font-size: 1.5rem;
+      }
+
+      & a{
+        color: #fff;
+        text-decoration: none;
+      }
+    }
+  }
+
+}

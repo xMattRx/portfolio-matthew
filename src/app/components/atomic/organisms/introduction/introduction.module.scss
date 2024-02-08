@@ -1,0 +1,77 @@
+.introduction {
+  max-width: 1200px;
+  padding: 40px 20px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  gap: 20px; 
+  align-items: center;
+  cursor: default;
+
+  @media (min-width: 400px) {
+    gap: 40px;
+  }
+
+  @media (min-width: 800px) {
+    grid-template-columns: 1fr;
+    gap: 100px;
+  }
+
+  @media (min-width: 1000px) {
+    grid-template-columns: 1fr 2fr;
+  }
+
+  &__title{
+    font-size: 2rem; 
+    line-height: 1.125;
+    margin-bottom: 20px; 
+    position: relative;
+    @media (min-width: 400px) {
+      font-size: 3rem;
+    }
+
+    @media (min-width: 800px) {
+      font-size: 4.5rem;
+      margin-bottom: 30px;
+    }
+
+    &::before{
+      content: "";
+      display: block;
+      width: 30px;
+      height: 10px;
+      background: url("../../../../assets/detalhe.svg") no-repeat center;
+      position: absolute;
+      z-index: -1;
+      top: -12px; 
+      left: 0;
+      @media (min-width: 400px) {
+        width: 30px;
+        height: 10px;
+        left: 2px;
+        top: -10px
+      }
+      @media (min-width: 800px) {
+        width: 130px;
+        height: 100px;
+        left: -40px;
+        top: -15px;
+      } 
+    }
+  }
+
+  &__description{
+    font-size: 1.5rem;
+    color: #525252;
+  }
+
+  &__image{
+    display: none;
+
+    @media (min-width: 1000px) {
+      display: block; 
+    }
+  }
+
+}

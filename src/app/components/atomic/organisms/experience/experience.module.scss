@@ -1,0 +1,30 @@
+.experience{
+  max-width: 100%;
+  padding: 40px 20px;
+  margin: 0 auto;
+  display: grid;
+  gap: 40px;
+  grid-template-columns: 1fr;
+  @media(min-width: 800px) {
+    max-width: 1200px;
+    grid-template-columns: 1fr 2fr;
+    gap: 100px;
+  }
+
+  &__description{
+    font-size: 1.25rem;
+    line-height: 1.33;
+    margin-bottom: 60px;
+    color: #525252;
+  
+    @media(min-width: 800px) {
+      font-size: 1.5rem;
+    }
+
+    & strong{
+      color: #141414;
+    }
+  }
+
+}
+

@@ -1,0 +1,25 @@
+{
+    "subtitle": {
+      "color": "#000000",
+      "value": "Formação"
+    },
+    "description": "<p><strong>Bacharelado</strong> em <strong>Engenharia de Software na PUC Minas</strong>. Além disso me mantenho me mantenho atualizado nas tecnologias de mercado por meio de cursos online.</p>",
+    "college": {
+      "type": "Bacharel",
+      "title": "Engenharia de Software",
+      "institution": "PUC MG"
+    },
+    "courses": [
+      {
+        "title": "Formação React JS - Alura",
+        "complement": "100h",
+        "category": "courses"
+      },
+      {
+        "title": "Inglês",
+        "complement": "/ Intermediário",
+        "category": "languages"
+      }
+    ]
+  }
+  
