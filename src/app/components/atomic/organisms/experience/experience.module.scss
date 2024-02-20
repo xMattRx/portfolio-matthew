@@ -1,3 +1,4 @@
+@import '../../../../variables.scss';
 .experience{
   max-width: 100%;
   padding: 40px 20px;
@@ -5,26 +6,25 @@
   display: grid;
   gap: 40px;
   grid-template-columns: 1fr;
-  @media(min-width: 800px) {
+  @media(min-width: $tablet-breakpoint) {
     max-width: 1200px;
     grid-template-columns: 1fr 2fr;
     gap: 100px;
   }
 
   &__description{
-    font-size: 1.25rem;
+    font-size: $text-font-size-medium-small;
     line-height: 1.33;
     margin-bottom: 60px;
-    color: #525252;
+    color: $charcoal-shadow;
   
-    @media(min-width: 800px) {
-      font-size: 1.5rem;
+    @media(min-width: $tablet-breakpoint) {
+      font-size: $text-font-size-medium;
     }
 
     & strong{
-      color: #141414;
+      color: $dark-charcoal;
     }
   }
-
 }
 

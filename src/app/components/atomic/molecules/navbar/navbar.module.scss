@@ -1,8 +1,15 @@
-.navbar{
-    display: flex;
+@import '../../../../variables.scss';
+
+.navbar {
     gap: 10px;
-    flex-wrap: wrap;
-    justify-content: center;
-    @media screen and (min-width: 1000px) {
+    display: grid;
+    grid-template-columns: 1fr;
+
+    @media screen and (min-width: $tablet-breakpoint) {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    @media screen and (min-width: $desktop-breakpoint) {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
     }
 }

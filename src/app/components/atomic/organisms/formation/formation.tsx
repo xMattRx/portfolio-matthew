@@ -1,18 +1,17 @@
-import React from 'react';
 import Description from "../../atoms/description/description";
 import { Subtitle } from "../../atoms/subtitle/subtitle";
 import { College } from "../../molecules/college/college";
-import styles from "./formation.module.scss";
-import formationData from "./formation.json";
 import { CourseItem } from '../../molecules/courseItem/couseItem';
+import formationData from "./formation.json";
+import styles from "./formation.module.scss";
 
 export function Formation() {
-  const { subtitle, description, college, courses } = formationData;
+  const { subtitle, description, college, courses, languages } = formationData;
 
   return (
     <section className={styles.formation} id="formação" aria-label="Formação">
       <div className={styles.formation__container}>
-        <Subtitle color={subtitle.color} value={subtitle.value} />
+        <Subtitle theme={'dark'} value={subtitle.value} />
 
         <div>
           <Description htmlContent={description} className={styles.formation__text} />
@@ -22,11 +21,16 @@ export function Formation() {
           </ul>
 
           <div className={styles.formation__extra}>
-            {courses.map((course, index) => (
-              <div key={index} className={styles[`formation__${course.category}`]}>
-                <CourseItem title={course.title} complement={course.complement} />
-              </div>
-            ))}
+            <div className={styles[`formation__courses`]}>
+              <h3 className={styles.formation__category}>Cursos intensivos</h3>
+                <CourseItem items={courses} />
+            </div>
+
+            <div className={styles[`formation__languages`]}>
+              <h3 className={styles.formation__category}>Idiomas</h3>
+                <CourseItem items={languages} />
+            </div>
+
           </div>
         </div>
       </div>

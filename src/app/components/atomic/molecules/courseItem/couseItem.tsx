@@ -1,16 +1,27 @@
 import React from 'react';
+import styles from './couseItem.module.scss';
 
-interface CourseItemProps {
+interface Course {
   title: string;
   complement: string;
 }
 
-export const CourseItem: React.FC<CourseItemProps> = ({ title, complement }) => {
+interface CourseItemProps {
+  items: Course[];
+}
+
+export const CourseItem: React.FC<CourseItemProps> = ({ items }) => {
   return (
     <>
-      <h3>{title}</h3>
       <ul>
-        <li>{title} <span>{complement}</span></li>
+        {items.map((item, index) => (
+          <li key={index} className={styles.courseItem__title}>
+            {item.title}
+            <span className={styles.courseItem__complement}>
+              {item.complement}
+            </span>
+          </li>
+        ))}
       </ul>
     </>
   );

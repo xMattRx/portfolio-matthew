@@ -1,6 +1,5 @@
 {
     "subtitle": {
-      "color": "#000000",
       "value": "Formação"
     },
     "description": "<p><strong>Bacharelado</strong> em <strong>Engenharia de Software na PUC Minas</strong>. Além disso me mantenho me mantenho atualizado nas tecnologias de mercado por meio de cursos online.</p>",
@@ -9,16 +8,36 @@
       "title": "Engenharia de Software",
       "institution": "PUC MG"
     },
-    "courses": [
+    "courses": [  
       {
-        "title": "Formação React JS - Alura",
-        "complement": "100h",
-        "category": "courses"
+        "title": "Curso Git/Github - B7Web",
+        "complement": "20h"
       },
       {
+        "title": "Curso JavaScript - B7Web",
+        "complement": "35h"
+      },
+      {
+        "title": "Curso React JS - B7Web",
+        "complement": "48h"
+      },
+      {
+        "title": "Formação React JS - Alura",
+        "complement": "100h"
+      },
+      {
+        "title": "Java COMPLETO Programação Orientada a Objetos +Projetos - Udemy",
+        "complement": "50h"
+      },
+      {
+        "title": "C# COMPLETO Programação Orientada a Objetos + Projetos - Udemy",
+        "complement": "37h"
+      }
+    ],
+    "languages": [  
+      {
         "title": "Inglês",
-        "complement": "/ Intermediário",
-        "category": "languages"
+        "complement": "/ Intermediário"
       }
     ]
   }

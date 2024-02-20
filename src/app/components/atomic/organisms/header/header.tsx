@@ -1,7 +1,7 @@
 import React from 'react';
 import Navbar from '../../molecules/navbar/navbar';
 import styles from "./header.module.scss";
-import header from './header.json'; // Importa o conteúdo do arquivo JSON
+import header from './header.json';
 
 export function Header() {
   return (

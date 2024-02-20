@@ -3,6 +3,7 @@ import { Footer } from "./components/atomic/organisms/footer/footer";
 import { Formation } from "./components/atomic/organisms/formation/formation";
 import { Header } from "./components/atomic/organisms/header/header";
 import { Introduction } from "./components/atomic/organisms/introduction/introduction";
+import Projects from "./components/atomic/organisms/projects/projects";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <Introduction/>
       <Experience/>
       <Formation/>
+      <Projects/>
       <Footer/>
     </>
   );

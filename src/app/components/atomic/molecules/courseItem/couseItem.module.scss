@@ -1,0 +1,14 @@
+@import '../../../../variables.scss';
+  
+  .courseItem{
+   
+    &__title{
+        font-size: $text-font-size-medium-small;
+        line-height: 1.1;
+        margin-bottom: 20px;
+        
+    }
+    &__complement{
+        color: $silver-mist;
+    }
+  }

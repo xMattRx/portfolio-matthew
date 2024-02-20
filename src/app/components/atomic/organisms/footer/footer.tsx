@@ -1,7 +1,6 @@
-import { FooterItem } from "../../atoms/footerItem/footerItem";
 import { Subtitle } from "../../atoms/subtitle/subtitle";
-import styles from "./footer.module.scss";
 import footerContent from "./footer.json";
+import styles from "./footer.module.scss";
 
 export function Footer() {
   const { subtitle, items } = footerContent;
@@ -9,10 +8,12 @@ export function Footer() {
   return (
     <footer className={styles.footer} id="contato">
       <div className={styles.footer__container}>
-        <Subtitle color={subtitle.color} value={subtitle.value} />
+        <Subtitle theme={'dark'} value={subtitle.value} />
         <ul className={styles.footer__contact}>
           {items.map((item, index) => (
-            <FooterItem key={index} href={item.href} value={item.value} />
+            <li className={styles.footer__contactItem} key={index}>
+              <a className={styles.footer__contactLink} target="_blank" href={item.href}>{item.value}</a>
+            </li>
           ))}
         </ul>
       </div>

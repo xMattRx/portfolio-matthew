@@ -18,7 +18,7 @@ const Company: React.FC<CompanyProps> = ({ year, title, role, description, skill
       <p className={styles.company__description}>{description}</p>
       <ul className={styles.company__skills}>
         {skills.map((skill, index) => (
-          <li key={index}>{skill}</li>
+          <li className={styles.company__skill} key={index}>{skill}</li>
         ))}
       </ul>
     </div>

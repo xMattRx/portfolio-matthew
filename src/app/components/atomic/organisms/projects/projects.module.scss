@@ -1,0 +1,82 @@
+@import '../../../../variables.scss';
+
+.projects {
+  display: flex;
+
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px 20px;
+
+    @media (max-width: $desktop-breakpoint) {
+      flex-direction: column;
+    }
+    
+    @media (max-width: $tablet-breakpoint) {
+      justify-content: center;
+      align-items: center;
+      display: grid;
+      grid-template-columns: 1fr;
+      width: 100%;
+    }  
+
+  }
+
+  &__wrapper {
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+
+    @media (max-width: $desktop-breakpoint) {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      width: 100%;
+    }
+    @media (max-width: $tablet-breakpoint) {
+      display: grid;
+      grid-template-columns: 1fr;
+      width: 100%;
+  }
+
+  }
+}
+
+.project {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 40px;
+
+  &__link {
+    color: $dark;
+    cursor: pointer;
+    text-decoration: none;
+    margin-top: 10px;
+    font-weight: bold;
+    transition: 1s;
+
+    &:hover {
+      color: $iron-gray;
+    }
+  }
+
+  &__img {
+    border-radius: 10px;
+    object-fit: cover;
+    height: 189px;
+  }
+
+  &__legend {
+    margin-top: 10px;
+  }
+}
+
+
+
+
+
+
+

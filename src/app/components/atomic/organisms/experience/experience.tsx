@@ -10,7 +10,7 @@ export function Experience() {
 
   return (
     <section className={styles.experience} id="experiência" aria-label="Experiência">
-      <Subtitle color={subtitle.color} value={subtitle.value} />
+      <Subtitle theme={'light'} value={subtitle.value} />
       <div>
         <Description htmlContent={description} className={styles.experience__description} />
         {companies.map((company, index) => (

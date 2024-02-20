@@ -1,22 +1,35 @@
 {
     "subtitle": {
-      "color": "#e2e2e2",
       "value": "Experiência"
     },
     "companies": [
       {
         "year": "2021",
-        "title": "ABC Tech",
+        "title": "Compass.uol",
         "role": "Estágio",
         "description": "Durante 4 meses, a empresa nos forneceu estrutura para aprendermos React JS e suas principais funcionalidades e bibliotecas. Como projeto final, desenvolvemos em equipe uma aplicação que é uma espécie de clone da Netflix utilizando as principais funcionalidades do React JS",
         "skills": ["HTML", "CSS", "JavaScript", "React JS"]
       },
       {
         "year": "2022",
-        "title": "TechCorp",
-        "role": "Desenvolvedor Front-End",
+        "title": "Compass.uol",
+        "role": "Desenvolvedor Mobile",
         "description": "Trabalhei como desenvolvedor Front-End na TechCorp, onde fui responsável pelo desenvolvimento de interfaces de usuário para várias aplicações web.",
-        "skills": ["HTML", "CSS", "JavaScript", "React JS", "Vue.js"]
+        "skills": ["React Native"]
+      },
+      {
+        "year": "2022",
+        "title": "Compass.uol",
+        "role": "Desenvolvedor Front-End",
+        "description": "Implementação de telas e funcionalidades para o projeto da Esfera do banco Santander",
+        "skills": ["HTML", "CSS", "JavaScript", "React JS"]
+      },
+      {
+        "year": "2023",
+        "title": "Valtech",
+        "role": "Desenvolvedor Front-End",
+        "description": "",
+        "skills": ["HTML", "CSS", "JavaScript", "React JS"]
       }
     ],
     "description": "<p>Sou desenvolvedor <strong>Front-End</strong> na Valtech. Curso atualmente <strong> Engenharia de software</strong> na PUC Minas.</p>"

@@ -1,0 +1,22 @@
+@import '../../../../variables.scss';
+
+.subtitle{
+    font-size: $text-font-size-extra-large;
+    text-transform: capitalize;
+    max-width: initial;
+    word-break: break-all;
+    line-height: 1;
+  
+    @media(min-width: $desktop-breakpoint){
+        font-size: $text-font-size-ultra-large;
+        text-transform: uppercase;
+        max-width: 5ch;
+    }
+  }
+
+  .light{
+    color: $pearl-gray;
+  }
+  .dark{
+    color: $dark;
+  }
