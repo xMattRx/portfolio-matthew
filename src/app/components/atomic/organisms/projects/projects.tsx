@@ -53,12 +53,6 @@ export default function Projects() {
             <p className={styles.project__legend}>Studio Ghibli</p>
           </div>
         </a>
-        <a className={styles.project__link} href="https://api-weather-alpha.vercel.app" target="_blank">
-          <div className={styles.project}>
-            {/* <Image className={styles.project__img} src={weather} alt=""/> */}
-            <p className={styles.project__legend}>API Weather</p>
-          </div>
-        </a>
       </div>
 
     </div>
