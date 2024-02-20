@@ -4,7 +4,7 @@ import ghibi from '@/app/assets/ghibi.png'
 import jordan from '@/app/assets/jordan.png'
 import login from '@/app/assets/login.png'
 import uolflix from '@/app/assets/uolflix.png'
-import weather from '@/app/assets/weather.png'
+// import weather from '@/app/assets/weather.png'
 import Image from 'next/image'
 import { Subtitle } from '../../atoms/subtitle/subtitle'
 import styles from "./projects.module.scss"
@@ -55,7 +55,7 @@ export default function Projects() {
         </a>
         <a className={styles.project__link} href="https://api-weather-alpha.vercel.app" target="_blank">
           <div className={styles.project}>
-            <Image className={styles.project__img} src={weather} alt=""/>
+            {/* <Image className={styles.project__img} src={weather} alt=""/> */}
             <p className={styles.project__legend}>API Weather</p>
           </div>
         </a>
