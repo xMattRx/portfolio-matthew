@@ -1,11 +1,11 @@
+import bikcraft from '@/app/assets/bikcraft.png'
+import disney from '@/app/assets/disney-plus.jpg'
+import ghibi from '@/app/assets/ghibi.png'
+import jordan from '@/app/assets/jordan.png'
+import login from '@/app/assets/login.png'
+import uolflix from '@/app/assets/uolflix.png'
+import weather from '@/app/assets/weather.png'
 import Image from 'next/image'
-import bikcraft from '../../../../assets/bikcraft.png'
-import disney from '../../../../assets/disney-plus.jpg'
-import jordan from '../../../../assets/jordan.png'
-import uolflix from '../../../../assets/uolflix.png'
-import login from '../../../../assets/login.png'
-import ghibi from '../../../../assets/ghibi.png'
-import weather from '../../../../assets/weather.png'
 import { Subtitle } from '../../atoms/subtitle/subtitle'
 import styles from "./projects.module.scss"
 
