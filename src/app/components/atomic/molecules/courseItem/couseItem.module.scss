@@ -6,7 +6,8 @@
         font-size: $text-font-size-medium-small;
         line-height: 1.1;
         margin-bottom: 20px;
-        
+        display: flex;
+        justify-content: space-between;
     }
     &__complement{
         color: $silver-mist;

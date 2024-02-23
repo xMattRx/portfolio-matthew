@@ -1,5 +1,3 @@
-// projects.jsx
-
 import React from 'react';
 import { Subtitle } from '../../atoms/subtitle/subtitle';
 import Project from '../../molecules/project/project';

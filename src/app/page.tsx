@@ -1,3 +1,4 @@
+'use client'
 import { Experience } from "./components/atomic/organisms/experience/experience";
 import { Footer } from "./components/atomic/organisms/footer/footer";
 import { Formation } from "./components/atomic/organisms/formation/formation";

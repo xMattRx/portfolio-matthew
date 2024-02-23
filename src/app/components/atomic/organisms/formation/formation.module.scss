@@ -49,17 +49,12 @@
   }
   &__courses{
     margin-bottom: 60px;
-    & h3::before{
+    .formation__category::before{
       background: url('../../../../assets/cursos.svg') no-repeat center center;
-    }
-
-    & li{
-      display: flex;
-      justify-content: space-between;
     }
   }
   &__languages{
-    & h3::before{
+    .formation__category::before{
       background: url('../../../../assets/idiomas.svg') no-repeat center center;
     }
   }

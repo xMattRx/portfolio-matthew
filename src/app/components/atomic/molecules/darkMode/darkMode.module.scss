@@ -1,0 +1,15 @@
+@import '../../../../variables.scss';
+
+.darkMode{
+ position: fixed;
+ right: 5px;
+ top: 5px;
+ gap: 5px;
+ display: flex;
+
+ &__moon{
+    filter: brightness(0) invert(1);
+ }
+}
+
+

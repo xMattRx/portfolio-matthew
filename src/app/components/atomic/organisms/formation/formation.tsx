@@ -21,14 +21,14 @@ export function Formation() {
           </ul>
 
           <div className={styles.formation__extra}>
-            <div className={styles[`formation__courses`]}>
+            <div className={styles.formation__courses}>
               <h3 className={styles.formation__category}>Cursos intensivos</h3>
-                <CourseItem items={courses} />
+              <CourseItem items={courses} />
             </div>
 
-            <div className={styles[`formation__languages`]}>
+            <div className={styles.formation__languages}>
               <h3 className={styles.formation__category}>Idiomas</h3>
-                <CourseItem items={languages} />
+              <CourseItem items={languages} />
             </div>
 
           </div>
