@@ -18,9 +18,16 @@
     &__title{
       text-align: center;
       font-size: 2rem;
+      transition: all 0.5s ease-in-out;
       @media screen and (min-width: $desktop-breakpoint) {
         text-align: initial;
       }
+
+     
+      &--dark{
+        color: $light;
+      }
+
     }
     &--light{
       background: $light;

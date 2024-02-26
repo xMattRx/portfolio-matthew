@@ -27,6 +27,7 @@
     line-height: 1.125;
     margin-bottom: 20px; 
     position: relative;
+    transition: all 0.5s ease-in-out;
     @media (min-width: $mobile-breakpoint) {
       font-size: $text-font-size-extra-large;
     }
@@ -34,6 +35,10 @@
     @media (min-width: $desktop-breakpoint) {
       font-size: $text-font-size-super-large;
       margin-bottom: 30px;
+    }
+
+    &--dark{
+      color: $misty-morning;
     }
 
     &::before{
@@ -63,14 +68,18 @@
 
   &__description{
     font-size: $text-font-size-medium;
-    color: $charcoal-shadow;
+    transition: all 0.5s ease-in-out;
+    &--light{
+      color: $charcoal-shadow;
+    }
+    &--dark{
+      color: $misty-morning;
+    }
   }
 
   &__image{
     object-fit: cover;
     display: none;
-    
-    
     @media (min-width: $tablet-breakpoint) {
       display: block; 
     }

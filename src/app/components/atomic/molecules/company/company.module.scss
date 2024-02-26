@@ -32,7 +32,14 @@
       font-size: $text-font-size-small;
       text-align: left;
       order: 1;
-    
+      
+      &--light{
+        color: $charcoal-shadow;
+      }
+      &--dark{
+        color: $light;
+      }
+
       @media(min-width: $tablet-breakpoint) {
         position: absolute;
         top: 22px;
