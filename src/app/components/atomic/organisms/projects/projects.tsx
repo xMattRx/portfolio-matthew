@@ -9,10 +9,12 @@ import ghibliImage from '@/app/assets/ghibli.png';
 import jordanImage from '@/app/assets/jordan.png';
 import loginImage from '@/app/assets/login.png';
 import uolflixImage from '@/app/assets/uolflix.png';
+import blogImage from '@/app/assets/blog.jpg';
 
 type ImageKey = keyof typeof imageSources;
 
 const imageSources = {
+  blog: blogImage,
   uolflix: uolflixImage,
   bikcraft: bikcraftImage,
   disney: disneyImage,

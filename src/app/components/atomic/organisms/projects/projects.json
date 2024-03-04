@@ -15,7 +15,12 @@
       "link": "https://disneyplus-clone-e28b6.firebaseapp.com"
     },
     {
-      "title": "Jordan Shoes",
+      "title": "Codelandia - Blog",
+      "imageSrc": "blog",
+      "link": "https://codelandia-jordan-shoes.vercel.app"
+    },
+    {
+      "title": "Codelandia - Jordan Shoes",
       "imageSrc": "jordan",
       "link": "https://codelandia-jordan-shoes.vercel.app"
     },
