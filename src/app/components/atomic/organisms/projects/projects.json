@@ -1,23 +1,23 @@
 [
-    {
-      "title": "Clone Netflix",
-      "imageSrc": "uolflix",
-      "link": "https://clone-netflix-89jry36yr-xmattrx.vercel.app"
-    },
-    {
-      "title": "Bikcraft",
-      "imageSrc": "bikcraft",
-      "link": "https://bikcraft-final.vercel.app"
-    },
-    {
-      "title": "Clone Disney Plus",
-      "imageSrc": "disney",
-      "link": "https://disneyplus-clone-e28b6.firebaseapp.com"
-    },
+  {
+    "title": "Bikcraft",
+    "imageSrc": "bikcraft",
+    "link": "https://bikcraft-final.vercel.app"
+  },
+  {
+    "title": "Clone Disney Plus",
+    "imageSrc": "disney-plus",
+    "link": "https://disneyplus-clone-e28b6.firebaseapp.com"
+  },
+  {
+    "title": "Clone Netflix",
+    "imageSrc": "uolflix",
+    "link": "https://clone-netflix-89jry36yr-xmattrx.vercel.app"
+  },
     {
       "title": "Codelandia - Blog",
       "imageSrc": "blog",
-      "link": "https://codelandia-jordan-shoes.vercel.app"
+      "link": "https://codelandia-blog-theta.vercel.app"
     },
     {
       "title": "Codelandia - Jordan Shoes",
@@ -25,14 +25,134 @@
       "link": "https://codelandia-jordan-shoes.vercel.app"
     },
     {
-      "title": "Página de login",
+      "title": "Codelandia - Login",
       "imageSrc": "login",
       "link": "https://codelandia-login-42k1smrny-xmattrx.vercel.app"
     },
     {
-      "title": "Studio Ghibli",
+      "title": "Codelandia - One Page",
+      "imageSrc": "onePage",
+      "link": "https://codelandia-one-page.vercel.app"
+    },
+    {
+      "title": "Codelandia - Studio Ghibli",
       "imageSrc": "ghibli",
       "link": "https://codelandia-studio-ghibli.vercel.app"
+    },
+    {
+      "title": "CineStream",
+      "imageSrc": "AppMovie",
+      "link": "https://app-movie-iota.vercel.app"
+    },
+    {
+      "title": "Frontend Mentor - QR Code Component",
+      "imageSrc": "QrCode",
+      "link": "https://qr-code-component-xmattrx.vercel.app"
+    },
+    {
+      "title": "Frontend Mentor - Product preview card component",
+      "imageSrc": "preview",
+      "link": "https://product-preview-card-component-liart.vercel.app"
+    },
+    {
+      "title": "Frontend Mentor - Interactive rating component",
+      "imageSrc": "rating",
+      "link": "https://interactive-rating-component-xmattrx.vercel.app"
+    },
+    {
+      "title": "Frontend Mentor - NFT preview card component",
+      "imageSrc": "nft",
+      "link": "https://nft-preview-card-component-xmattrx.vercel.app"
+    },
+    {
+      "title": "Frontend Mentor - Order summary card",
+      "imageSrc": "order",
+      "link": "https://order-summary-component-xmattrx.vercel.app"
+    },
+    {
+      "title": "Frontend Mentor - Stats preview card component",
+      "imageSrc": "stats",
+      "link": "https://stats-preview-card-component-main-xmattrx.vercel.app"
+    },
+    {
+      "title": "Frontend Mentor - 3-column preview card component",
+      "imageSrc": "column3",
+      "link": "https://3-column-preview-card-component-xmattrx.vercel.app"
+    },
+    {
+      "title": "Frontend Mentor - Profile card component",
+      "imageSrc": "profile",
+      "link": "https://profile-card-component-main-xmattrx.vercel.app/"
+    },
+    {
+      "title": "Frontend Mentor - FAQ accordion card",
+      "imageSrc": "faq",
+      "link": "https://faq-accordion-card-main-mocha.vercel.app/"
+    },
+    {
+      "title": "Frontend Mentor - Social proof section",
+      "imageSrc": "social",
+      "link": "https://social-proof-section-xmattrx.vercel.app/"
+    },
+    {
+      "title": "Frontend Mentor - Article preview component",
+      "imageSrc": "article",
+      "link": "https://article-preview-component-xmattrx.vercel.app/"
+    },
+    {
+      "title": "Frontend Mentor - Four card feature section",
+      "imageSrc": "four-article",
+      "link": "https://four-card-feature-section-xmattrx.vercel.app/"
+    },
+    {
+      "title": "Frontend Mentor - Intro component with sign up form",
+      "imageSrc": "signup",
+      "link": "https://intro-component-with-signup-form-sage.vercel.app/"
+    },
+    {
+      "title": "Frontend Mentor - Base Apparel coming soon page",
+      "imageSrc": "base-apparel",
+      "link": "https://base-apparel-coming-soon-page-orcin.vercel.app/"
+    },
+    {
+      "title": "Frontend Mentor - Results summary component",
+      "imageSrc": "results-summary",
+      "link": "https://results-summary-component-main-roan.vercel.app/"
+    },
+    {
+      "title": "Frontend Mentor - Single price grid component",
+      "imageSrc": "grid-price",
+      "link": "https://single-price-grid-component-xmattrx.vercel.app/"
+    },
+    {
+      "title": "Frontend Mentor - Single price grid component",
+      "imageSrc": "ping-single",
+      "link": "https://ping-single-column-coming-soon-page-xmattrx.vercel.app/"
+    },
+    {
+      "title": "Frontend Mentor - Huddle landing page with single introductory section",
+      "imageSrc": "huddle",
+      "link": "https://huddle-landing-page-with-a-single-introductory-section-xmattrx.vercel.app/"
+    },
+    {
+      "title": "Frontend Mentor - Expenses chart component",
+      "imageSrc": "expenses",
+      "link": "https://expenses-chart-component-snowy.vercel.app/"
+    },
+    {
+      "title": "Frontend Mentor - Newsletter sign-up form with success message",
+      "imageSrc": "newsletter",
+      "link": "https://newsletter-signup-form-with-success-message.vercel.app/"
+    },
+    {
+      "title": "Pokedex",
+      "imageSrc": "pokedex",
+      "link": "https://react-pokedex-xmattrx.vercel.app/"
+    },
+    {
+      "title": "Weather",
+      "imageSrc": "Weather",
+      "link": "https://api-weather-alpha.vercel.app"
     }
   ]
   

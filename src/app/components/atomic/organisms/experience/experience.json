@@ -14,7 +14,7 @@
         "year": "2022",
         "title": "Compass.uol",
         "role": "Desenvolvedor Mobile",
-        "description": "Trabalhei como desenvolvedor Front-End na TechCorp, onde fui responsável pelo desenvolvimento de interfaces de usuário para várias aplicações web.",
+        "description": "Participação em uma equipe de sustentabilidade para o aplicativo Carmen Steffens em React Native.",
         "skills": ["React Native"]
       },
       {
@@ -32,7 +32,7 @@
         "skills": ["HTML", "CSS", "JavaScript", "React JS"]
       }
     ],
-    "description": "<p>Sou desenvolvedor <strong class=\"teste\">Front-End</strong> na Valtech. Curso atualmente <strong class=\"teste\"> Engenharia de software</strong> na PUC Minas.</p>"
+    "description": "<p>Sou desenvolvedor <strong class=\"teste\">Front-End</strong> na Valtech. Formado em <strong class=\"teste\"> Engenharia de software</strong> na PUC Minas.</p>"
 
   }
   

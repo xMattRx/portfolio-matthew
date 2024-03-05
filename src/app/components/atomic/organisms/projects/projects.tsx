@@ -1,27 +1,24 @@
-import React from 'react';
 import { Subtitle } from '../../atoms/subtitle/subtitle';
 import Project from '../../molecules/project/project';
+import projectsData from './projects.json';
 import styles from './projects.module.scss';
-import projectsData from './projects.json'; 
-import bikcraftImage from '@/app/assets/bikcraft.png';
-import disneyImage from '@/app/assets/disney-plus.jpg';
-import ghibliImage from '@/app/assets/ghibli.png';
-import jordanImage from '@/app/assets/jordan.png';
-import loginImage from '@/app/assets/login.png';
-import uolflixImage from '@/app/assets/uolflix.png';
-import blogImage from '@/app/assets/blog.jpg';
+
+declare const require: {
+  context(dir: string, includeSubdirs: boolean, filter: RegExp): any;
+};
+
+function importAllImages() {
+  const images = require.context('@/app/assets', false, /\.(png|jpe?g|svg)$/); 
+  return images.keys().reduce((imageSources: Record<string, string>, key: string) => {
+    const imageName = key.replace(/^.*[\\/]/, '').split('.')[0];
+    imageSources[imageName] = images(key).default;
+    return imageSources;
+  }, {});
+}
+
+const imageSources = importAllImages();
 
 type ImageKey = keyof typeof imageSources;
-
-const imageSources = {
-  blog: blogImage,
-  uolflix: uolflixImage,
-  bikcraft: bikcraftImage,
-  disney: disneyImage,
-  jordan: jordanImage,
-  login: loginImage,
-  ghibli: ghibliImage,
-};
 
 export default function Projects() {
   return (

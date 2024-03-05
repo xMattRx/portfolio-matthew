@@ -40,6 +40,10 @@
   &__contactLink{
     color: $light;
     text-decoration: none;
+
+    &:hover{
+      text-decoration: underline;
+    }
   }
 
 }
