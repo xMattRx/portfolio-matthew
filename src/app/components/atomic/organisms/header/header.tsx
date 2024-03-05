@@ -4,6 +4,7 @@ import Navbar from '../../molecules/navbar/navbar';
 import header from './header.json';
 import styles from "./header.module.scss";
 
+
 export function Header() {
   const { theme } = useTheme();
 
