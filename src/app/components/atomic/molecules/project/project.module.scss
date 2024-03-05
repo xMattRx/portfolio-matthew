@@ -29,6 +29,14 @@
   &__legend {
     margin-top: 10px;
     text-align: center;
+
+    &--dark{
+      color: $dark
+    }
+    
+    &--light{
+      color: $light
+    }
   }
 }
 
