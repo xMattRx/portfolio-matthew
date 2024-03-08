@@ -1,5 +1,6 @@
 @import './variables.scss';
 
+
 html,
 body,
 div,
@@ -104,11 +105,43 @@ section {
 	display: block;
 }
 
+  :root {
+	--white: #ffffff;         
+	--pale-silver: #e2e2e2;   
+	--light-mist: #f5f5f5;    
+	--silver-cloud: #cccccc;  
+	--soft-gray: #a3a3a3;     
+	--medium-gray: #686868;   
+	--dark-slate: #525252;
+	--gray-shadow: #8f8f8f;    
+	--deep-charcoal: #141414; 
+	--black: #000000;         
+	--luminous-lime: #b6f829;
+	--zesty-green: #67dd0a;
+  }
+  
+  [data-theme="dark"]{
+		--white: #000000;          
+		--pale-silver: #000000;    
+		--light-mist: #333333;     
+		--silver-cloud: #555555;   
+		--soft-gray: #777777;      
+		--medium-gray: #999999;    
+		--dark-slate: #CCCCCC;     
+		--gray-shadow: #050404;    
+		--deep-charcoal: #f8f3f3;  
+		--black: #ffffff;          
+		--luminous-lime: #8cbf26;  
+		--zesty-green: #a8e67b;    
+  }
+  
+
 body {
 	line-height: 1;
+	background-color: var(--white);
 
 	&:has(.header_header--dark__xNSPw) {
-		background-color: $dark;
+		background-color: var(--dark);
 	  }
 }
 
@@ -116,6 +149,7 @@ ol,
 ul {
 	list-style: none;
 }
+
 
 blockquote,
 q {
@@ -136,7 +170,7 @@ table {
 }
 
 body {
-	color: $dark-charcoal;
+	color: var(--deep-charcoal);
 }
 
 h1,

@@ -23,6 +23,7 @@
   }
 
   &__title{
+    color: var(--black);
     font-size: $text-font-size-large; 
     line-height: 1.125;
     margin-bottom: 20px; 
@@ -38,7 +39,7 @@
     }
 
     &--dark{
-      color: $misty-morning;
+      color: var(--light-mist);
     }
 
     &::before{
@@ -69,12 +70,7 @@
   &__description{
     font-size: $text-font-size-medium;
     transition: all 0.5s ease-in-out;
-    &--light{
-      color: $charcoal-shadow;
-    }
-    &--dark{
-      color: $misty-morning;
-    }
+    color: var(--dark-slate);
   }
 
   &__image{

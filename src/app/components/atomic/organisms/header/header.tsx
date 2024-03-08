@@ -6,15 +6,9 @@ import styles from "./header.module.scss";
 
 
 export function Header() {
-  const { theme } = useTheme();
-
-  const headerClasses = [styles.header, theme === 'light' ? styles['header--light'] : styles['header--dark']].join(' ');
-
-  const titleClasses = [styles.header__title, theme === 'light' ? '' : styles['header__title--dark']].join(' ');
-
   return (
-    <header className={headerClasses}>
-      <h1 className={titleClasses}>Matthew R. R. Nascimento</h1>
+    <header className={styles.header}>
+      <h1 className={styles.header__title}>Matthew R. R. Nascimento</h1>
       <Navbar values={header.values} />
       <DarkMode/>
     </header>

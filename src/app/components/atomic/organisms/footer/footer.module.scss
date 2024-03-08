@@ -1,6 +1,6 @@
 @import '../../../../variables.scss';
 .footer{
-  background: $dark-charcoal;
+  background: var(--deep-charcoal);
 
   &__container{
     align-items: center;
@@ -19,7 +19,7 @@
   }
 
   &__text{
-    color: $silver-cloud;
+    color: var(--silver-cloud);
     font-size: $text-font-size-medium;
     line-height: 1.33;
     
@@ -28,7 +28,7 @@
     font-weight: bold;
     font-size: $text-font-size-medium;
     line-height: 1.1;
-    color: $light;
+    color: var(--white);
     margin-bottom: 30px;
   }
   
@@ -38,7 +38,7 @@
     }
   }
   &__contactLink{
-    color: $light;
+    color: var(--white);
     text-decoration: none;
 
     &:hover{

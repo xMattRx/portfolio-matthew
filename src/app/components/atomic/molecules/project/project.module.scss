@@ -8,7 +8,7 @@
   margin: 40px;
 
   &__link {
-    color: $dark;
+    color: var(--black);
     cursor: pointer;
     text-decoration: none;
     margin-top: 10px;
@@ -16,7 +16,7 @@
     transition: 1s;
 
     &:hover {
-      color: $iron-gray;
+      color: var(--medium-gray);
     }
   }
 
@@ -29,14 +29,8 @@
   &__legend {
     margin-top: 10px;
     text-align: center;
+    color: var(--black);
 
-    &--dark{
-      color: $dark
-    }
-    
-    &--light{
-      color: $light
-    }
   }
 }
 

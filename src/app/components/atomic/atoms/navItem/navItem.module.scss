@@ -13,15 +13,15 @@
     transition: all 0.5s ease-in-out;
 
     &--light {
-        color: $dark-charcoal;
-
+        color: var(--dark-charcoal);
+        
         &:hover {
-            background: $misty-morning;
+            background: var(--light-mist);
         }
     }
-
+    
     &--dark {
-        color: $light;
+        color: var(--black);
 
         &:hover {
             background: transparent;

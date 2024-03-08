@@ -16,24 +16,11 @@
     font-size: $text-font-size-medium-small;
     line-height: 1.33;
     margin-bottom: 60px;
-    
-    &--light{
-      color: $charcoal-shadow;
+    color: var(--dark-slate);
 
-      & strong{
-        color: $dark-charcoal;
-      }
+    & strong{
+      color: var(--deep-charcoal);
     }
-
-    &--dark{
-      color: $misty-morning;
-
-      & strong{
-        color: $light;
-      }
-    }
-  
-    
 
     @media(min-width: $tablet-breakpoint) {
       font-size: $text-font-size-medium;

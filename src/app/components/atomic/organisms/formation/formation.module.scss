@@ -1,8 +1,8 @@
 @import '../../../../variables.scss';
 
 .formation{
-  background: $dark-charcoal;
-  color: $light;
+  background: var(--deep-charcoal);
+  color: var(--white);
   &__container{
     max-width: 100%;
     padding: 60px 20px;
@@ -35,10 +35,10 @@
     font-size: $text-font-size-medium;
     line-height: 1.33;
     margin-bottom: 60px;
-    color: $misty-gray;
+    color: var(--soft-gray);
 
     & strong{
-      color: $light;
+      color: var(--white);
     }
   }
   &__colleges{
@@ -61,7 +61,7 @@
   &__category{
     font-style: $text-font-size-small;
     line-height: 1.4;
-    color: $silver-mist;
+    color: var(--gray-shadow);
     text-transform: uppercase;
     margin-bottom: 30px;
     position: relative;

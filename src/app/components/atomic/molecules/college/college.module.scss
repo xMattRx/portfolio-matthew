@@ -1,7 +1,7 @@
 @import '../../../../variables.scss';
 
 .formation{
-    background: $dark;
+    background: var(--black);
     padding: 20px;
     border-radius: 4px;
     display: flex;
@@ -10,11 +10,12 @@
     &__type{
       font-size: $text-font-size-small;
       text-transform: uppercase;
-      color: $misty-gray;
+      color: var(--soft-gray);
       margin-bottom: 10px;
     }
   }
   .formation__course{
+    color: var(--white);
     flex: 1;
     font-size: $text-font-size-small;
     line-height: 1.4;
@@ -26,12 +27,12 @@
       display: block;
       width: 4px;
       height: 20px;
-      background: linear-gradient($luminous-lime,$zesty-green);
+      background: linear-gradient(var(--luminous-lime),var(--zesty-green));
       position: absolute;
       left: -24px;
     }
   }
   .formation__institution{
     font-size: $text-font-size-small;
-    color: $misty-gray;
+    color: var(--soft-gray);
   }

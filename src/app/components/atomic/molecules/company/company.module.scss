@@ -5,7 +5,7 @@
     grid-template-columns: 1fr;
     gap: 30px;
     padding: 20px;
-    background: $misty-morning;
+    background: var(--light-mist);
     margin-bottom: 20px;
     border-radius: 4px;
     position: relative;
@@ -20,7 +20,7 @@
       display: block;
       width: 4px;
       height: 20px;
-      background: linear-gradient($luminous-lime,$zesty-green);
+      background: linear-gradient(var(--luminous-lime),var(--zesty-green));
       position: absolute;
       top: 20px;
       left: -4px;
@@ -28,16 +28,16 @@
   
     &__year{
       position: initial;
-      color: $charcoal-shadow;
+      color: var(--dark-slate);
       font-size: $text-font-size-small;
       text-align: left;
       order: 1;
       
       &--light{
-        color: $charcoal-shadow;
+        color: var(--dark-slate);
       }
       &--dark{
-        color: $light;
+        color: var(--white);
       }
 
       @media(min-width: $tablet-breakpoint) {
@@ -51,18 +51,21 @@
     }
     &__title{
       font-size: $text-font-size-medium-small;
+      color: var(--black);
       line-height: 1.1;
       font-weight: bold;
     }
     &__role{
       font-size: $text-font-size-medium-small;
+      color: var(--black);
       line-height: 1.1;
       font-weight: bold;
     }
     &__description{
       font-size: $text-font-size-small;
+      color: var(--black);
       line-height: 1.4;
-      color: $charcoal-shadow;
+      color: var(--dark-slate);
     }
     &__skills{
       display: flex;
@@ -74,7 +77,8 @@
       font-size: $text-font-size-small;
       line-height: 1.4;
       border-radius: 4px;
-      background-color: $light;
+      background-color: var(--white);
+      color: var(--black);
       padding: 5px 10px;
     }
   }

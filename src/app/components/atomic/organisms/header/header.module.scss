@@ -8,6 +8,7 @@
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
+    background: var(--white);
     gap: 2.5rem;
     @media screen and (min-width: $desktop-breakpoint) {
       gap: 0rem;
@@ -19,20 +20,10 @@
       text-align: center;
       font-size: 2rem;
       transition: all 0.5s ease-in-out;
+      color: var(--black);
       @media screen and (min-width: $desktop-breakpoint) {
         text-align: initial;
       }
-
-     
-      &--dark{
-        color: $light;
-      }
-
     }
-    &--light{
-      background: $light;
-    }
-    &--dark{
-      background: $dark
-    }
+    
   }
