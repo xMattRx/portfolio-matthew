@@ -47,8 +47,9 @@
     {
       "title": "Contentful - Series",
       "imageSrc": "contentful",
-      "link": "https://contentful-series-one.vercel.app/"
+      "link": "https://contentful-series-one.vercel.app"
     },
+
     {
       "title": "Frontend Mentor - QR Code Component",
       "imageSrc": "QrCode",
