@@ -45,6 +45,11 @@
       "link": "https://app-movie-iota.vercel.app"
     },
     {
+      "title": "Contentful - Series",
+      "imageSrc": "contentful",
+      "link": "https://contentful-series-one.vercel.app/"
+    },
+    {
       "title": "Frontend Mentor - QR Code Component",
       "imageSrc": "QrCode",
       "link": "https://qr-code-component-xmattrx.vercel.app"
