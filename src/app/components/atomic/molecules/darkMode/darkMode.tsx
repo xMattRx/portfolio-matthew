@@ -44,11 +44,11 @@ export default function DarkMode() {
                     theme === 'light' ? (
                         <Image src={sunLight} alt="sun" width={30} height={30} />
                     ) : (
-                        <Image className={styles.darkMode__moon} src={moonDark} alt="moon" width={30} height={30} />
+                        <Image className={styles.darkMode__icon} src={moonDark} alt="moon" width={30} height={30} />
                     )
                 ) : (
                     <Image
-                        className={theme !== 'forest' ? styles.darkMode__sun : ''}
+                        className={theme !== 'forest' ? styles.darkMode__icon : ''}
                         src={sunLight}
                         alt="sun"
                         width={30}

@@ -7,11 +7,12 @@
    gap: 10px;
    display: flex;
    position: absolute;
+   
+   @media (max-width: 474px) {
+      flex-direction: column-reverse;
+   }
 
- &__moon{
-    filter: brightness(0) invert(1);
- }
- &__sun{
+ &__icon{
     filter: brightness(0) invert(1);
  }
 }
