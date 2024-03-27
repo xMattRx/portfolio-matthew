@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { ThemeProvider, useTheme } from "./Context/ThemeContext";
+import { ThemeProvider } from "./Context/ThemeContext";
 import "./globals.scss";
 
 export const metadata: Metadata = {
@@ -12,7 +12,7 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  // const { theme } = useTheme();
+  
   return (
     <html lang="pt-br">
       <body>

@@ -1,7 +1,8 @@
 'use client'
 import React, { ReactNode, createContext, useContext, useState } from 'react';
 
-type Theme = 'light' | 'dark';
+type Theme = 'light' | 'dark' | 'sunset' | 'snow' | 'forest';
+
 
 interface ThemeContextType {
   theme: Theme;
