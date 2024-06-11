@@ -151,6 +151,11 @@
       "link": "https://newsletter-signup-form-with-success-message.vercel.app/"
     },
     {
+      "title": "pagina de vendas - Virando Heroi",
+      "imageSrc": "heroi",
+      "link": "virando-heroi.vercel.app/"
+    },
+    {
       "title": "Pokedex",
       "imageSrc": "pokedex",
       "link": "https://react-pokedex-xmattrx.vercel.app/"
