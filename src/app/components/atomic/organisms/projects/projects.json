@@ -1,5 +1,10 @@
 [
   {
+    "title": "Blog",
+    "imageSrc": "blog2",
+    "link": "https://desafio-1-codelabs-lgl0rxt6p-xmattrxs-projects.vercel.app/"
+  },
+  {
     "title": "Bikcraft",
     "imageSrc": "bikcraft",
     "link": "https://bikcraft-final.vercel.app"
@@ -49,7 +54,6 @@
       "imageSrc": "contentful",
       "link": "https://contentful-series-one.vercel.app"
     },
-
     {
       "title": "Frontend Mentor - QR Code Component",
       "imageSrc": "QrCode",
@@ -151,6 +155,26 @@
       "link": "https://newsletter-signup-form-with-success-message.vercel.app/"
     },
     {
+      "title": "La Pizza",
+      "imageSrc": "pizza",
+      "link": "https://desafio-8-codelabs.vercel.app/"
+    },
+    {
+      "title": "Login",
+      "imageSrc": "login2",
+      "link": "https://desafio-4-codelabs.vercel.app/"
+    },
+    {
+      "title": "Memoween",
+      "imageSrc": "memoween",
+      "link": "https://desafio-7-codelabs.vercel.app/"
+    },
+    {
+      "title": "JordanShoes",
+      "imageSrc": "jordan2",
+      "link": "https://desafio-2-codelabs.vercel.app/"
+    },
+    {
       "title": "pagina de vendas - Virando Heroi",
       "imageSrc": "heroi",
       "link": "https://virando-heroi.vercel.app/"
@@ -159,6 +183,16 @@
       "title": "Pokedex",
       "imageSrc": "pokedex",
       "link": "https://react-pokedex-xmattrx.vercel.app/"
+    },
+    {
+      "title": "Studio Ghibli",
+      "imageSrc": "ghibli2",
+      "link": "https://desafio-5-codelabs.vercel.app/"
+    },
+    {
+      "title": "Techblog",
+      "imageSrc": "techblog",
+      "link": "https://desafio-3-codelabs.vercel.app/"
     },
     {
       "title": "Weather",
