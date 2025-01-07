@@ -4,39 +4,39 @@
     },
     "companies": [
       {
-        "year": "2021",
-        "title": "Compass.uol",
-        "role": "Estágio",
-        "description": "Durante 4 meses, a empresa nos forneceu estrutura para aprendermos React JS e suas principais funcionalidades e bibliotecas. Como projeto final, desenvolvemos em equipe uma aplicação que é uma espécie de clone da Netflix utilizando as principais funcionalidades do React JS",
-        "skills": ["HTML", "CSS", "JavaScript", "React JS"]
-      },
-      {
-        "year": "2022",
-        "title": "Compass.uol",
-        "role": "Desenvolvedor Mobile",
-        "description": "Participação em uma equipe de sustentabilidade para o aplicativo Carmen Steffens em React Native.",
-        "skills": ["React Native"]
-      },
-      {
-        "year": "2022",
-        "title": "Compass.uol",
+        "year": "2024",
+        "title": "CI&T",
         "role": "Desenvolvedor Front-End",
-        "description": "Implementação de telas e funcionalidades para o projeto da Esfera do banco Santander",
-        "skills": ["HTML", "CSS", "JavaScript", "React JS","SASS","TypeScript"]
+        "description": "Participei do desenvolvimento da plataforma de oportunidades de leads da Porto Seguro, focando na geração e qualificação de leads. Desenvolvi interfaces modernas e responsivas com React e TypeScript, utilizando SCSS para estilização e Jest para testes unitários. Além disso, integrei APIs REST e apliquei a metodologia ágil SCRUM para gerenciar tarefas e entregas, garantindo a escalabilidade e estabilidade do projeto.",
+        "skills": ["HTML", "CSS", "JavaScript", "React JS","SASS","TypeScript","Testes Unitários"]
       },
       {
         "year": "2023",
         "title": "Valtech",
         "role": "Desenvolvedor Front-End",
-        "description": "Gerenciei solicitações de clientes, implementei novas funcionalidades, corrigi bugs e integrei sistemas CMS Headless para gestão de conteúdo dinâmica. Atuei na entrega de software, orientando equipes em reuniões, apresentando KPI’s técnicos e administrando cronogramas para executivos. Desenvolvi componentes responsivos com React e Vue, alinhados a designs no Figma, garantindo uma experiência de usuário moderna. Contribuí para o sucesso de projetos como Chemyunion, Hemophilia, Flu Shots V2, Redesign de Sinuberase/Aderogyl, CBMM, e Calculadora Dysport - Galderma.",
+        "description": "Atuei no controle de solicitações dos clientes e na implementação de novas funcionalidades utilizando React e Vue.js, além de corrigir bugs e integrar sistemas CMS Headless para gestão de conteúdo. Gerenciei e entreguei software, orientando a equipe e apresentando KPIs técnicos em reuniões com níveis executivos. Desenvolvi componentes responsivos alinhados aos designs no Figma e trabalhei com APIs REST, adotando a metodologia ágil SCRUM. Contribuí para projetos como Chemyniuon, Redesign de Sinuberase/Aderogyl e Calculadora Dysport (React) e Hemophilia, Flu Shots V2 e CBMM (Vue.js).",
         "skills": ["HTML", "CSS", "JavaScript", "React JS","SASS","TypeScript","Testes Unitários"]
       },
       {
-        "year": "2024",
-        "title": "CI&T",
+        "year": "2022",
+        "title": "Compass.uol",
         "role": "Desenvolvedor Front-End",
-        "description": "Desenvolvo interfaces de usuário dinâmicas e responsivas para o Projeto Porto Seguro, utilizando React e TypeScript para garantir um código robusto e de fácil manutenção. Implementei estilos modulares com SCSS, assegurando consistência visual em diversos dispositivos e breakpoints. Além disso, criei e mantive testes unitários, contribuindo para a qualidade e estabilidade do projeto.",
-        "skills": ["HTML", "CSS", "JavaScript", "React JS","SASS","TypeScript","Testes Unitários"]
+        "description": "No Projeto Esfera do Banco Santander, fui responsável pela implementação de melhorias e novas funcionalidades na plataforma digital, com foco em usabilidade e design responsivo. Utilizei React e Next.js para o desenvolvimento de interfaces de usuário, aplicando lógica avançada e interatividade via JavaScript. Também realizei a organização e manutenção de CSS, integração com Back-End, e gerenciamento de dependências, sempre utilizando boas práticas de controle de versão e criando aplicações dinâmicas com componentes reutilizáveis.",
+        "skills": ["HTML", "CSS", "JavaScript", "React JS","SASS","TypeScript"]
+      },
+      {
+        "year": "2022",
+        "title": "Compass.uol",
+        "role": "Desenvolvedor Mobile",
+        "description": "No Projeto Carmen Steffens, fui responsável pela modernização e expansão da experiência do usuário no aplicativo da marca, desenvolvendo novas interfaces com React Native para uma experiência móvel otimizada. Implantei integrações com a API interna para funcionalidades críticas, utilizando Styled-Components, Redux, Context API e React Navigation, garantindo desempenho e escalabilidade.",
+        "skills": ["React Native"]
+      },
+      {
+        "year": "2021",
+        "title": "Compass.uol",
+        "role": "Estágio",
+        "description": "Durante o meu estágio na empresa Compass.uol, fui responsável pela manipulação de dados e chamadas assíncronas à API utilizando Async/Await, participando de reuniões e revisões de sprint para garantir a entrega contínua e incremental de funcionalidades. Implementei componentes funcionais com hooks, gerenciei o estado da aplicação e estilizei componentes de forma modular e dinâmica. Além disso, realizei um estudo aprofundado na trilha React.js da Alura, criando uma plataforma de filmes inspirada na Netflix, com a metodologia ágil Scrum e React.js.",
+        "skills": ["HTML", "CSS", "JavaScript", "React JS"]
       }
     ],
     "description": "<p>Sou desenvolvedor <strong class=\"teste\">Front-End</strong> na CI&T. Formado em <strong class=\"teste\"> Engenharia de software</strong> na PUC Minas.</p>"
