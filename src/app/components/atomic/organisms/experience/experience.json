@@ -15,7 +15,7 @@
         "title": "Valtech",
         "role": "Desenvolvedor Front-End",
         "description": "Atuei no controle de solicitações dos clientes e na implementação de novas funcionalidades utilizando React e Vue.js, além de corrigir bugs e integrar sistemas CMS Headless para gestão de conteúdo. Gerenciei e entreguei software, orientando a equipe e apresentando KPIs técnicos em reuniões com níveis executivos. Desenvolvi componentes responsivos alinhados aos designs no Figma e trabalhei com APIs REST, adotando a metodologia ágil SCRUM. Contribuí para projetos como Chemyniuon, Redesign de Sinuberase/Aderogyl e Calculadora Dysport (React) e Hemophilia, Flu Shots V2 e CBMM (Vue.js).",
-        "skills": ["HTML", "CSS", "JavaScript", "React JS","SASS","TypeScript","Testes Unitários"]
+        "skills": ["HTML", "CSS", "JavaScript", "React JS","SASS","TypeScript","Tailwind","Testes Unitários"]
       },
       {
         "year": "2022",
