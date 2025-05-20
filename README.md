@@ -1,37 +1,78 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 💼 Portfólio | Matthew R. R. Nascimento
 
-## Getting Started
+Este é o portfólio profissional de **Matthew Nascimento**, desenvolvedor **Front-End** com foco em aplicações performáticas, interfaces modernas e experiências acessíveis. O projeto foi desenvolvido com **Next.js 13+**, **TypeScript** e **SCSS**, utilizando boas práticas de componentização, dark mode e responsividade.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🧑‍💻 Sobre mim
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Sou Desenvolvedor Front-End com mais de 4 anos de experiência, atualmente atuando na **CI&T**. Tenho vivência em projetos para grandes empresas, com foco em tecnologias como **React**, **Next.js**, **TypeScript**, **Tailwind CSS** e **SCSS**.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+🎓 Formado em Engenharia de Software pela PUC Minas  
+📍 Localizado em Belo Horizonte - MG
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+---
 
-## Learn More
+## 🛠️ Tecnologias utilizadas
 
-To learn more about Next.js, take a look at the following resources:
+- [Next.js 13+](https://nextjs.org/)
+- [React](https://reactjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [SCSS (Sass)](https://sass-lang.com/)
+- [GitHub Pages + Vercel](https://vercel.com/)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## 🚀 Como rodar localmente
 
-## Deploy on Vercel
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/xMattRx/MattNasc.github.io.git
+   ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+2. Acesse a pasta do projeto:
+   ```bash
+   cd MattNasc.github.io
+   ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-# portfolio
+3. Instale as dependências:
+   ```bash
+   npm install
+   ```
+
+4. Execute em ambiente de desenvolvimento:
+   ```bash
+   npm run dev
+   ```
+
+5. Acesse em:
+   ```
+   http://localhost:3000
+   ```
+
+---
+
+## 🌐 Acesse online
+
+- **Produção (Vercel)**: [portfolio.matt.vercel.app](https://portfolio.matt.vercel.app)  
+- **GitHub Pages**: https://xmattrx.github.io
+
+---
+
+## ✨ Funcionalidades
+
+- Página inicial com apresentação e foto
+- Sessões de experiência profissional e formação
+- Portfólio com projetos destacados
+- Seção de contato integrada
+- Design responsivo e com suporte a **dark mode**
+
+---
+
+## 📄 Licença
+
+Este projeto está sob a licença MIT.
+
+---
+
+Desenvolvido com dedicação por [Matthew Nascimento](https://github.com/xMattRx) 🚀
