@@ -175,11 +175,6 @@
       "link": "https://desafio-2-codelabs.vercel.app/"
     },
     {
-      "title": "pagina de vendas - Virando Heroi",
-      "imageSrc": "heroi",
-      "link": "https://virando-heroi.vercel.app/"
-    },
-    {
       "title": "Pokedex",
       "imageSrc": "pokedex",
       "link": "https://react-pokedex-xmattrx.vercel.app/"
