@@ -54,8 +54,7 @@ Sou Desenvolvedor Front-End com mais de 4 anos de experiência, atualmente atuan
 
 ## 🌐 Acesse online
 
-- **Produção (Vercel)**: [portfolio.matt.vercel.app](https://portfolio.matt.vercel.app)  
-- **GitHub Pages**: https://xmattrx.github.io
+- **Produção (Vercel)**: [portfolio.matt.vercel.app](https://portfoliomatt.vercel.app/)  
 
 ---
 
