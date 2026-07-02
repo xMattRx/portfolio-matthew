@@ -1,6 +1,10 @@
 {
-  "title": "Desenvolvedor<br/>Front End",
-  "description": "Localizado em Belo Horizonte 🌆",
-  "alt": "Matthew photo"
+  "title": "Desenvolvedor<br/>Front-End",
+  "description": "Há mais de 4 anos criando interfaces web performáticas e acessíveis com React, Next.js e TypeScript. Hoje na Elo, em produtos de pagamento e sistemas internos.",
+  "location": "Belo Horizonte, MG 🌆",
+  "alt": "Foto de Matthew Nascimento",
+  "actions": {
+    "primary": { "label": "Ver projetos", "href": "#projetos" },
+    "secondary": { "label": "Entre em contato", "href": "#contato" }
+  }
 }
-  
