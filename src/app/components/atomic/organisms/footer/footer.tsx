@@ -12,7 +12,7 @@ export function Footer() {
         <ul className={styles.footer__contact}>
           {items.map((item, index) => (
             <li className={styles.footer__contactItem} key={index}>
-              <a className={styles.footer__contactLink} target="_blank" href={item.href}>{item.value}</a>
+              <a className={styles.footer__contactLink} target="_blank" rel="noopener noreferrer" href={item.href}>{item.value}</a>
             </li>
           ))}
         </ul>
