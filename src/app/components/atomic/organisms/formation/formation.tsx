@@ -1,3 +1,6 @@
+'use client';
+import { motion } from "motion/react";
+import { staggerContainer, cardFade, viewportOnce } from "../../../../motion";
 import formationData from "./formation.json";
 import styles from "./formation.module.scss";
 
@@ -6,13 +9,19 @@ export function Formation() {
 
   return (
     <section className={styles.formation} id="formação" aria-label="Formação">
-      <div className={styles.wrap}>
-        <div className={styles.kicker}>{kicker}</div>
-        <h2 className={styles.heading}>
+      <motion.div
+        className={styles.wrap}
+        variants={staggerContainer}
+        initial="hidden"
+        whileInView="show"
+        viewport={viewportOnce}
+      >
+        <motion.div className={styles.kicker} variants={cardFade}>{kicker}</motion.div>
+        <motion.h2 className={styles.heading} variants={cardFade}>
           {subtitle.value} <i>{headingHighlight}</i>
-        </h2>
+        </motion.h2>
 
-        <div className={styles.grid}>
+        <motion.div className={styles.grid} variants={cardFade}>
           <div className={styles.degree}>
             <div className={styles.degree__badge}>{college.type}</div>
             <h3 className={styles.degree__title}>{college.title}</h3>
@@ -48,8 +57,8 @@ export function Formation() {
               </ul>
             </div>
           </div>
-        </div>
-      </div>
+        </motion.div>
+      </motion.div>
     </section>
   );
 }

@@ -44,6 +44,16 @@
   gap: 24px;
 }
 
+// wrapper de animação de cada card em destaque — preenche largura e altura da célula
+.gridItem {
+  display: flex;
+  flex-direction: column;
+
+  & > * {
+    flex: 1;
+  }
+}
+
 .more {
   margin-top: 72px;
   padding-top: 40px;

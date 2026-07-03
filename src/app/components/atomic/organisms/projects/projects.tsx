@@ -1,5 +1,8 @@
+'use client';
+import { motion } from 'motion/react';
 import Image from 'next/image';
 import Project from '../../molecules/project/project';
+import { staggerContainer, cardFade, viewportOnce } from '../../../../motion';
 import projectsData from './projects.json';
 import styles from './projects.module.scss';
 
@@ -26,12 +29,25 @@ export default function Projects() {
   return (
     <section className={styles.projects} id="projetos" aria-label="Projetos">
       <div className={styles.wrap}>
-        <div className={styles.kicker}>// projetos</div>
-        <h2 className={styles.heading}>
-          Projetos <i>em destaque</i>
-        </h2>
+        <motion.div
+          variants={staggerContainer}
+          initial="hidden"
+          whileInView="show"
+          viewport={viewportOnce}
+        >
+          <motion.div className={styles.kicker} variants={cardFade}>// projetos</motion.div>
+          <motion.h2 className={styles.heading} variants={cardFade}>
+            Projetos <i>em destaque</i>
+          </motion.h2>
+        </motion.div>
 
-        <div className={styles.grid}>
+        <motion.div
+          className={styles.grid}
+          variants={staggerContainer}
+          initial="hidden"
+          whileInView="show"
+          viewport={viewportOnce}
+        >
           {featured.map((project, index) => {
             const imageSrc =
               project.imageSrc in imageSources
@@ -41,16 +57,21 @@ export default function Projects() {
             if (!imageSrc) return null;
 
             return (
-              <Project
-                key={index}
-                project={{ ...project, imageSrc: imageSrc as any }}
-              />
+              <motion.div className={styles.gridItem} variants={cardFade} key={index}>
+                <Project project={{ ...project, imageSrc: imageSrc as any }} />
+              </motion.div>
             );
           })}
-        </div>
+        </motion.div>
 
         <div className={styles.more}>
-          <div className={styles.more__head}>
+          <motion.div
+            className={styles.more__head}
+            variants={cardFade}
+            initial="hidden"
+            whileInView="show"
+            viewport={viewportOnce}
+          >
             <span className={styles.more__label}>
               Outros projetos <span className={styles.more__count}>({others.length})</span>
             </span>
@@ -62,9 +83,15 @@ export default function Projects() {
             >
               ver todos no GitHub ↗
             </a>
-          </div>
+          </motion.div>
 
-          <ul className={styles.thumbGrid}>
+          <motion.ul
+            className={styles.thumbGrid}
+            variants={staggerContainer}
+            initial="hidden"
+            whileInView="show"
+            viewport={viewportOnce}
+          >
             {others.map((project, index) => {
               const imageSrc =
                 project.imageSrc in imageSources
@@ -72,7 +99,7 @@ export default function Projects() {
                   : null;
 
               return (
-                <li key={index}>
+                <motion.li variants={cardFade} key={index}>
                   <a
                     className={styles.thumb}
                     href={project.link}
@@ -100,10 +127,10 @@ export default function Projects() {
                     </div>
                     <span className={styles.thumb__title}>{project.title}</span>
                   </a>
-                </li>
+                </motion.li>
               );
             })}
-          </ul>
+          </motion.ul>
         </div>
       </div>
     </section>

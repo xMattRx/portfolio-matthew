@@ -1,3 +1,6 @@
+'use client';
+import { motion } from "motion/react";
+import { staggerContainer, cardFade, viewportOnce } from "../../../../motion";
 import footerContent from "./footer.json";
 import styles from "./footer.module.scss";
 
@@ -10,19 +13,25 @@ export function Footer() {
       <div className={styles.footer__grid} aria-hidden="true"></div>
 
       <div className={styles.wrap}>
-        <div className={styles.cta}>
-          <div className={styles.kicker}>{kicker}</div>
-          <h2 className={styles.title}>
+        <motion.div
+          className={styles.cta}
+          variants={staggerContainer}
+          initial="hidden"
+          whileInView="show"
+          viewport={viewportOnce}
+        >
+          <motion.div className={styles.kicker} variants={cardFade}>{kicker}</motion.div>
+          <motion.h2 className={styles.title} variants={cardFade}>
             {heading} <i>{headingHighlight}</i>
-          </h2>
-          <p className={styles.lede}>{lede}</p>
+          </motion.h2>
+          <motion.p className={styles.lede} variants={cardFade}>{lede}</motion.p>
 
-          <div className={styles.availability}>
+          <motion.div className={styles.availability} variants={cardFade}>
             <span className={styles.availability__dot} aria-hidden="true"></span>
             {availability}
-          </div>
+          </motion.div>
 
-          <div className={styles.links}>
+          <motion.div className={styles.links} variants={cardFade}>
             {items.map((item, index) => (
               <a
                 key={index}
@@ -35,8 +44,8 @@ export function Footer() {
                 <span className={styles.link__arrow} aria-hidden="true">↗</span>
               </a>
             ))}
-          </div>
-        </div>
+          </motion.div>
+        </motion.div>
 
         <div className={styles.bottom}>
           <span className={styles.bottom__copy}>© {year} {copyright}</span>

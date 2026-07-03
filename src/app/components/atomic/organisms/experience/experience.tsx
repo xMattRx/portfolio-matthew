@@ -1,4 +1,7 @@
+'use client';
+import { motion } from "motion/react";
 import Company from "../../molecules/company/company";
+import { staggerContainer, cardFade, viewportOnce } from "../../../../motion";
 import styles from "./experience.module.scss";
 import content from "./experience.json";
 
@@ -7,18 +10,24 @@ export function Experience() {
 
   return (
     <section className={styles.experience} id="experiência" aria-label="Experiência">
-      <div className={styles.wrap}>
-        <div className={styles.kicker}>{kicker}</div>
-        <h2 className={styles.heading}>
+      <motion.div
+        className={styles.wrap}
+        variants={staggerContainer}
+        initial="hidden"
+        whileInView="show"
+        viewport={viewportOnce}
+      >
+        <motion.div className={styles.kicker} variants={cardFade}>{kicker}</motion.div>
+        <motion.h2 className={styles.heading} variants={cardFade}>
           {subtitle.value} <i>{headingHighlight}</i>
-        </h2>
+        </motion.h2>
 
-        <div className={styles.timeline}>
+        <motion.div className={styles.timeline} variants={cardFade}>
           {companies.map((company, index) => (
             <Company key={index} {...company} current={index === 0} />
           ))}
-        </div>
-      </div>
+        </motion.div>
+      </motion.div>
     </section>
   );
 }

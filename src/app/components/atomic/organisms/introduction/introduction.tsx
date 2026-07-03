@@ -1,3 +1,6 @@
+'use client';
+import { motion } from "motion/react";
+import { staggerContainer, cardFade } from "../../../../motion";
 import introduction from './introduction.json';
 import styles from "./introduction.module.scss";
 
@@ -8,33 +11,38 @@ export function Introduction() {
       <div className={styles.hero__grid} aria-hidden="true"></div>
 
       <div className={styles.hero__inner}>
-        <div className={styles.hero__copy}>
-          <div className={styles.eyebrow}>
+        <motion.div
+          className={styles.hero__copy}
+          variants={staggerContainer}
+          initial="hidden"
+          animate="show"
+        >
+          <motion.div className={styles.eyebrow} variants={cardFade}>
             <span className={styles.eyebrow__dot} aria-hidden="true"></span>
             {introduction.eyebrow}
-          </div>
+          </motion.div>
 
-          <h1 className={styles.hero__title}>
+          <motion.h1 className={styles.hero__title} variants={cardFade}>
             <span className={styles.hero__greeting}>{introduction.greeting}</span>
             {introduction.name}
-          </h1>
+          </motion.h1>
 
-          <div className={styles.hero__role}>{introduction.role}</div>
+          <motion.div className={styles.hero__role} variants={cardFade}>{introduction.role}</motion.div>
 
-          <p className={styles.hero__lede}>{introduction.description}</p>
+          <motion.p className={styles.hero__lede} variants={cardFade}>{introduction.description}</motion.p>
 
-          <div className={styles.hero__location}>{introduction.location}</div>
+          <motion.div className={styles.hero__location} variants={cardFade}>{introduction.location}</motion.div>
 
-          <div className={styles.hero__actions}>
+          <motion.div className={styles.hero__actions} variants={cardFade}>
             <a className={`${styles.btn} ${styles['btn--primary']}`} href={introduction.actions.primary.href}>
               {introduction.actions.primary.label}
             </a>
             <a className={`${styles.btn} ${styles['btn--outline']}`} href={introduction.actions.secondary.href}>
               {introduction.actions.secondary.label}
             </a>
-          </div>
+          </motion.div>
 
-          <div className={styles.hero__social}>
+          <motion.div className={styles.hero__social} variants={cardFade}>
             {introduction.social.map((item) => (
               <a
                 key={item.label}
@@ -47,8 +55,8 @@ export function Introduction() {
                 {item.label}
               </a>
             ))}
-          </div>
-        </div>
+          </motion.div>
+        </motion.div>
 
         <div className={styles.code} aria-hidden="true">
           <div className={styles.code__win}>
