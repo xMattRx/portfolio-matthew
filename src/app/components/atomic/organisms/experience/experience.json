@@ -8,14 +8,14 @@
       {
         "year": "2025",
         "title": "Elo",
-        "role": "Desenvolvedor Front-End",
+        "role": "Software Engineer",
         "description": "Desenvolvo o site institucional e sistemas internos da Elo. No Backoffice Multissaldos (Next.js 16), implementei controle de acesso RBAC com Auth0, integrações REST e monitoramento com Datadog RUM; no Checkout Pix (Next.js 15), o fluxo de consentimento LGPD e validação de elegibilidade. Stack: Styled Components, Eloquent UI e testes com Vitest/Testing Library.",
         "skills": ["HTML", "CSS", "JavaScript", "React JS", "TypeScript", "Next.js", "Auth0", "Datadog", "Tailwind", "Testes Unitários"]
       },
       {
         "year": "2024",
         "title": "CI&T",
-        "role": "Desenvolvedor Front-End",
+        "role": "Software Engineer",
         "description": "Desenvolvi a plataforma de geração e qualificação de leads da Porto Seguro com React e TypeScript, com interfaces responsivas em SCSS, integração a APIs REST e testes unitários em Jest, sob metodologia ágil SCRUM.",
         "skills": ["HTML", "CSS", "JavaScript", "React JS","SASS","TypeScript","Testes Unitários"]
       },

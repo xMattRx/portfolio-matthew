@@ -4,17 +4,18 @@ import "./globals.scss";
 
 const siteUrl = "https://portfoliomatt.vercel.app";
 const siteDescription =
-  "Matthew Nascimento — Desenvolvedor Front-End com mais de 4 anos de experiência em React, Next.js e TypeScript. Interfaces modernas, performáticas e acessíveis. Veja meus projetos e experiência.";
+  "Matthew Nascimento — Software Engineer com mais de 4 anos de experiência em React, Next.js e TypeScript. Interfaces modernas, performáticas e acessíveis. Veja meus projetos e experiência.";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "Matthew Nascimento | Desenvolvedor Front-End React & Next.js",
+    default: "Matthew Nascimento | Software Engineer React & Next.js",
     template: "%s | Matthew Nascimento",
   },
   description: siteDescription,
   keywords: [
     "Matthew Nascimento",
+    "Software Engineer",
     "Desenvolvedor Front-End",
     "Front-End Developer",
     "React",
@@ -35,20 +36,20 @@ export const metadata: Metadata = {
     locale: "pt_BR",
     url: siteUrl,
     siteName: "Matthew Nascimento",
-    title: "Matthew Nascimento | Desenvolvedor Front-End React & Next.js",
+    title: "Matthew Nascimento | Software Engineer React & Next.js",
     description: siteDescription,
     images: [
       {
         url: "/perfil.png",
         width: 360,
         height: 520,
-        alt: "Matthew Nascimento — Desenvolvedor Front-End",
+        alt: "Matthew Nascimento — Software Engineer",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Matthew Nascimento | Desenvolvedor Front-End React & Next.js",
+    title: "Matthew Nascimento | Software Engineer React & Next.js",
     description: siteDescription,
     images: ["/perfil.png"],
   },

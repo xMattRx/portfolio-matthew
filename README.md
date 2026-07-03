@@ -1,12 +1,12 @@
 # 💼 Portfólio | Matthew R. R. Nascimento
 
-Este é o portfólio profissional de **Matthew Nascimento**, desenvolvedor **Front-End** com foco em aplicações performáticas, interfaces modernas e experiências acessíveis. O projeto foi desenvolvido com **Next.js 13+**, **TypeScript** e **SCSS**, utilizando boas práticas de componentização, dark mode e responsividade.
+Este é o portfólio profissional de **Matthew Nascimento**, **Software Engineer** com foco em aplicações performáticas, interfaces modernas e experiências acessíveis. O projeto foi desenvolvido com **Next.js 13+**, **TypeScript** e **SCSS**, utilizando boas práticas de componentização, dark mode e responsividade.
 
 ---
 
 ## 🧑‍💻 Sobre mim
 
-Sou Desenvolvedor Front-End com mais de 4 anos de experiência, atualmente atuando na **CI&T**. Tenho vivência em projetos para grandes empresas, com foco em tecnologias como **React**, **Next.js**, **TypeScript**, **Tailwind CSS** e **SCSS**.
+Sou Software Engineer com mais de 4 anos de experiência, atualmente atuando na **Elo**. Tenho vivência em projetos para grandes empresas, com foco em tecnologias como **React**, **Next.js**, **TypeScript**, **Tailwind CSS** e **SCSS**.
 
 🎓 Formado em Engenharia de Software pela PUC Minas  
 📍 Localizado em Belo Horizonte - MG
