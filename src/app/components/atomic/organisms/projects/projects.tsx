@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Project from '../../molecules/project/project';
 import projectsData from './projects.json';
 import styles from './projects.module.scss';
@@ -63,20 +64,45 @@ export default function Projects() {
             </a>
           </div>
 
-          <ul className={styles.list}>
-            {others.map((project, index) => (
-              <li className={styles.list__item} key={index}>
-                <a
-                  className={styles.list__link}
-                  href={project.link}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <span className={styles.list__name}>{project.title}</span>
-                  <span className={styles.list__arrow} aria-hidden="true">↗</span>
-                </a>
-              </li>
-            ))}
+          <ul className={styles.thumbGrid}>
+            {others.map((project, index) => {
+              const imageSrc =
+                project.imageSrc in imageSources
+                  ? imageSources[project.imageSrc as ImageKey]
+                  : null;
+
+              return (
+                <li key={index}>
+                  <a
+                    className={styles.thumb}
+                    href={project.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <div className={styles.thumb__media}>
+                      {imageSrc ? (
+                        <Image
+                          className={styles.thumb__img}
+                          src={imageSrc as any}
+                          alt={project.title}
+                          width={320}
+                          height={200}
+                        />
+                      ) : (
+                        <span className={styles.thumb__placeholder} aria-hidden="true">
+                          <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+                            <rect x="3" y="3" width="18" height="18" rx="2" />
+                            <circle cx="8.5" cy="8.5" r="1.5" />
+                            <path d="m21 15-5-5L5 21" />
+                          </svg>
+                        </span>
+                      )}
+                    </div>
+                    <span className={styles.thumb__title}>{project.title}</span>
+                  </a>
+                </li>
+              );
+            })}
           </ul>
         </div>
       </div>
