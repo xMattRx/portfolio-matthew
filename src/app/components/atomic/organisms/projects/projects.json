@@ -6,7 +6,7 @@
       "description": "App React consumindo a PokeAPI, com busca e listagem paginada.",
       "stack": ["React"],
       "imageSrc": "pokedex",
-      "link": "https://react-pokedex-xmattrx.vercel.app/"
+      "link": "https://react-pokedex-eight-kappa.vercel.app/"
     },
     {
       "title": "CineStream",
