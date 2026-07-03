@@ -1,10 +1,16 @@
 {
-  "title": "Desenvolvedor<br/>Front-End",
+  "eyebrow": "Portfólio — Front-End Developer",
+  "greeting": "Olá, eu sou o",
+  "name": "Matthew",
+  "role": "Desenvolvedor Front-End",
   "description": "Há mais de 4 anos criando interfaces web performáticas e acessíveis com React, Next.js e TypeScript. Hoje na Elo, em produtos de pagamento e sistemas internos.",
-  "location": "Belo Horizonte, MG 🌆",
-  "alt": "Foto de Matthew Nascimento",
+  "location": "📍 Belo Horizonte, MG",
   "actions": {
     "primary": { "label": "Ver projetos", "href": "#projetos" },
     "secondary": { "label": "Entre em contato", "href": "#contato" }
-  }
+  },
+  "social": [
+    { "label": "IN", "name": "LinkedIn", "href": "https://www.linkedin.com/in/matthew-nascimento-5753246a/" },
+    { "label": "GH", "name": "GitHub", "href": "https://github.com/xMattRx" }
+  ]
 }

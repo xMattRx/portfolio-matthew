@@ -118,8 +118,20 @@ section {
 	--black: #000000;         
 	--luminous-lime: #b6f829;
 	--zesty-green: #67dd0a;
+
+	/* Redesign dark tokens (fixos, independentes do theme switcher) */
+	--bg: #121212;
+	--bg-alt: #181818;
+	--bg-card: #1c1c1c;
+	--border: rgba(255, 255, 255, .08);
+	--border-hi: rgba(255, 255, 255, .16);
+	--text: #f3f1ec;
+	--dim: rgba(243, 241, 236, .62);
+	--dimmer: rgba(243, 241, 236, .38);
+	--accent: #39ff88;
+	--accent-dim: rgba(57, 255, 136, .12);
   }
-  
+
   [data-theme="dark"]{
 		--white: #000000;          
 		--pale-silver: #000000;    

@@ -1,4 +1,3 @@
-import { useTheme } from '@/app/Context/ThemeContext';
 import styles from "./navItem.module.scss";
 
 interface NavItemProps {
@@ -6,13 +5,9 @@ interface NavItemProps {
 }
 
 export function NavItem({ value }: NavItemProps) {
-    const { theme } = useTheme();
-    
-    const navItemClass = theme === 'light' ? styles['navItem--light'] : styles['navItem--dark'];
-
     const capitalizedValue = value.charAt(0).toUpperCase() + value.slice(1);
 
     return (
-        <li><a className={`${styles.navItem} ${navItemClass}`} href={`#${value}`}>{capitalizedValue}</a></li>
+        <li><a className={styles.navItem} href={`#${value}`}>{capitalizedValue}</a></li>
     );
 }

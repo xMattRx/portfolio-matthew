@@ -1,16 +1,18 @@
 {
-    "subtitle": {
-      "value": "Contato"
-    },
+    "kicker": "// contato",
+    "heading": "Vamos construir",
+    "headingHighlight": "algo juntos",
+    "lede": "Estou aberto a novas oportunidades e colaborações. Se quiser conversar sobre um projeto ou apenas trocar uma ideia, é só chamar.",
+    "availability": "Disponível para novos projetos",
     "items": [
       {
         "href": "https://www.linkedin.com/in/matthew-nascimento-5753246a/",
-        "value": "Linkedin"
+        "value": "LinkedIn"
       },
       {
         "href": "https://github.com/xMattRx",
-        "value": "Github"
+        "value": "GitHub"
       }
-    ]
+    ],
+    "copyright": "Matthew R. R. Nascimento"
   }
-  

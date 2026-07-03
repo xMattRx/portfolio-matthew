@@ -8,8 +8,8 @@ interface NavbarProps {
 
 const Navbar: React.FC<NavbarProps> = ({ values }) => {
   return (
-    <nav>
-      <ul className={styles.navbar}>
+    <nav className={styles.navbar}>
+      <ul className={styles.navbar__list}>
         {values.map((value, index) => (
           <NavItem key={index} value={value} />
         ))}

@@ -1,44 +1,48 @@
 {
+    "kicker": "// formação",
     "subtitle": {
-      "value": "Formação"
+      "value": "Formação &"
     },
-    "description": "<p><strong>Bacharelado</strong> em <strong>Engenharia de Software na PUC Minas</strong>. Além disso, me mantenho atualizado nas tecnologias de mercado por meio de cursos online.</p>",
+    "headingHighlight": "aprendizado",
     "college": {
-      "type": "Bacharel",
+      "type": "Bacharelado",
       "title": "Engenharia de Software",
-      "institution": "PUC MG"
+      "institution": "PUC Minas"
     },
-    "courses": [  
+    "courses": [
       {
-        "title": "Curso Git/Github - B7Web",
-        "complement": "20h"
+        "title": "Formação React JS",
+        "complement": "Alura · 100h"
       },
       {
-        "title": "Curso JavaScript - B7Web",
-        "complement": "35h"
+        "title": "Java — POO + Projetos",
+        "complement": "Udemy · 50h"
       },
       {
-        "title": "Curso React JS - B7Web",
-        "complement": "48h"
+        "title": "C# — POO + Projetos",
+        "complement": "Udemy · 37h"
       },
       {
-        "title": "Formação React JS - Alura",
-        "complement": "100h"
+        "title": "Curso React JS",
+        "complement": "B7Web · 48h"
       },
       {
-        "title": "Java COMPLETO Programação Orientada a Objetos +Projetos - Udemy",
-        "complement": "50h"
+        "title": "Curso JavaScript",
+        "complement": "B7Web · 35h"
       },
       {
-        "title": "C# COMPLETO Programação Orientada a Objetos + Projetos - Udemy",
-        "complement": "37h"
+        "title": "Curso Git / GitHub",
+        "complement": "B7Web · 20h"
       }
     ],
-    "languages": [  
+    "languages": [
       {
         "title": "Inglês",
         "complement": "Intermediário"
+      },
+      {
+        "title": "Português",
+        "complement": "Nativo"
       }
     ]
   }
-  

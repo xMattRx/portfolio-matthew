@@ -1,40 +1,110 @@
 @import '../../../../variables.scss';
 
-.project {
-  align-items: center;
+.card {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  margin: 40px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  overflow: hidden;
+  text-decoration: none;
+  color: var(--text);
+  transition: transform .18s ease, border-color .18s ease;
 
-  &__link {
-    color: var(--black);
-    cursor: pointer;
-    text-decoration: none;
-    margin-top: 10px;
-    font-weight: bold;
-    transition: 1s;
+  &:hover {
+    transform: translateY(-4px);
+    border-color: var(--accent);
+  }
 
-    &:hover {
-      color: var(--medium-gray);
-    }
+  &:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 3px;
+  }
+
+  &__media {
+    position: relative;
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
+    background: var(--bg-alt);
+    border-bottom: 1px solid var(--border);
   }
 
   &__img {
-    border-radius: 10px;
+    width: 100%;
+    height: 100%;
     object-fit: cover;
-    height: 189px;
+    transition: transform .4s ease;
   }
 
-  &__legend {
-    margin-top: 10px;
-    text-align: center;
-    color: var(--black);
+  &:hover &__img {
+    transform: scale(1.04);
+  }
 
+  &__body {
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+  }
+
+  &__tech {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    letter-spacing: .12em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin-bottom: 10px;
+  }
+
+  &__title {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--text);
+    margin: 0 0 8px;
+  }
+
+  &__desc {
+    font-size: 14px;
+    line-height: 1.6;
+    color: var(--dim);
+    margin: 0 0 18px;
+  }
+
+  &__tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    list-style: none;
+    margin: 0 0 20px;
+    padding: 0;
+  }
+
+  &__tag {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    padding: 4px 10px;
+    border: 1px solid var(--border-hi);
+    border-radius: 100px;
+    color: var(--dim);
+  }
+
+  &__cta {
+    margin-top: auto;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 12px;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    color: var(--accent);
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  &__arrow {
+    transition: transform .18s ease;
+  }
+
+  &:hover &__arrow {
+    transform: translateX(4px);
   }
 }
-
-
-
-
-
