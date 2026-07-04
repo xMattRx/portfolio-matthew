@@ -1,4 +1,6 @@
 import { ImageResponse } from "next/og";
+import { readFileSync } from "fs";
+import { join } from "path";
 
 export const runtime = "nodejs";
 
@@ -13,12 +15,8 @@ const SOFT_GRAY = "#a3a3a3";
 const WHITE = "#ffffff";
 
 export default async function Image() {
-  const photoData = await fetch(
-    new URL("./perfil.png", import.meta.url)
-  ).then((res) => res.arrayBuffer());
-  const photoSrc = `data:image/png;base64,${Buffer.from(photoData).toString(
-    "base64"
-  )}`;
+  const photoData = readFileSync(join(process.cwd(), "public", "perfil.png"));
+  const photoSrc = `data:image/png;base64,${photoData.toString("base64")}`;
 
   return new ImageResponse(
     (
