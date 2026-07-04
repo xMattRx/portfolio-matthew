@@ -38,20 +38,13 @@ export const metadata: Metadata = {
     siteName: "Matthew Nascimento",
     title: "Matthew Nascimento | Software Engineer React & Next.js",
     description: siteDescription,
-    images: [
-      {
-        url: "/perfil.png",
-        width: 360,
-        height: 520,
-        alt: "Matthew Nascimento — Software Engineer",
-      },
-    ],
+    // A imagem (1200×630) é gerada por src/app/opengraph-image.tsx
   },
   twitter: {
     card: "summary_large_image",
     title: "Matthew Nascimento | Software Engineer React & Next.js",
     description: siteDescription,
-    images: ["/perfil.png"],
+    // Reutiliza automaticamente o opengraph-image.tsx
   },
   robots: {
     index: true,
