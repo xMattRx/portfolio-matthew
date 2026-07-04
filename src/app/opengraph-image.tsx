@@ -1,6 +1,4 @@
 import { ImageResponse } from "next/og";
-import { readFileSync } from "fs";
-import { join } from "path";
 
 export const runtime = "nodejs";
 
@@ -15,9 +13,6 @@ const SOFT_GRAY = "#a3a3a3";
 const WHITE = "#ffffff";
 
 export default async function Image() {
-  const photoData = readFileSync(join(process.cwd(), "public", "perfil.png"));
-  const photoSrc = `data:image/png;base64,${photoData.toString("base64")}`;
-
   return new ImageResponse(
     (
       <div
@@ -25,99 +20,82 @@ export default async function Image() {
           width: "100%",
           height: "100%",
           display: "flex",
+          flexDirection: "column",
+          justifyContent: "center",
           background: DEEP_CHARCOAL,
-          backgroundImage: `radial-gradient(circle at 80% 20%, rgba(182,248,41,0.12), transparent 45%)`,
-          padding: "72px 80px",
-          alignItems: "center",
-          justifyContent: "space-between",
+          backgroundImage: `radial-gradient(circle at 85% 15%, rgba(182,248,41,0.14), transparent 45%)`,
+          padding: "80px 96px",
           fontFamily: "sans-serif",
+          borderTop: `10px solid ${LUMINOUS_LIME}`,
         }}
       >
-        {/* Texto */}
-        <div style={{ display: "flex", flexDirection: "column", maxWidth: 660 }}>
-          <div
-            style={{
-              display: "flex",
-              alignItems: "center",
-              color: LUMINOUS_LIME,
-              fontSize: 26,
-              fontWeight: 600,
-              letterSpacing: 2,
-              textTransform: "uppercase",
-              marginBottom: 28,
-            }}
-          >
-            {"< Portfólio />"}
-          </div>
-
-          <div
-            style={{
-              display: "flex",
-              color: WHITE,
-              fontSize: 76,
-              fontWeight: 700,
-              lineHeight: 1.05,
-            }}
-          >
-            Matthew Nascimento
-          </div>
-
-          <div
-            style={{
-              display: "flex",
-              color: LUMINOUS_LIME,
-              fontSize: 38,
-              fontWeight: 600,
-              marginTop: 16,
-            }}
-          >
-            Software Engineer · React &amp; Next.js
-          </div>
-
-          <div
-            style={{
-              display: "flex",
-              color: SOFT_GRAY,
-              fontSize: 27,
-              lineHeight: 1.4,
-              marginTop: 28,
-            }}
-          >
-            +4 anos criando interfaces web performáticas e acessíveis com
-            TypeScript.
-          </div>
-
-          <div
-            style={{
-              display: "flex",
-              color: SOFT_GRAY,
-              fontSize: 24,
-              marginTop: 36,
-            }}
-          >
-            📍 Belo Horizonte, MG · github.com/xMattRx
-          </div>
-        </div>
-
-        {/* Foto */}
+        {/* Eyebrow */}
         <div
           style={{
             display: "flex",
-            width: 360,
-            height: 360,
-            borderRadius: "50%",
-            border: `8px solid ${LUMINOUS_LIME}`,
-            overflow: "hidden",
-            flexShrink: 0,
+            color: LUMINOUS_LIME,
+            fontSize: 28,
+            fontWeight: 600,
+            letterSpacing: 3,
+            textTransform: "uppercase",
+            marginBottom: 32,
           }}
         >
-          <img
-            src={photoSrc}
-            width={360}
-            height={360}
-            style={{ objectFit: "cover" }}
-            alt=""
-          />
+          {"< Portfólio />"}
+        </div>
+
+        {/* Nome */}
+        <div
+          style={{
+            display: "flex",
+            color: WHITE,
+            fontSize: 104,
+            fontWeight: 700,
+            lineHeight: 1.02,
+            letterSpacing: -2,
+          }}
+        >
+          Matthew Nascimento
+        </div>
+
+        {/* Cargo */}
+        <div
+          style={{
+            display: "flex",
+            color: LUMINOUS_LIME,
+            fontSize: 46,
+            fontWeight: 600,
+            marginTop: 20,
+          }}
+        >
+          Software Engineer · React &amp; Next.js
+        </div>
+
+        {/* Descrição */}
+        <div
+          style={{
+            display: "flex",
+            color: SOFT_GRAY,
+            fontSize: 30,
+            lineHeight: 1.4,
+            marginTop: 32,
+            maxWidth: 900,
+          }}
+        >
+          +4 anos criando interfaces web performáticas e acessíveis com
+          TypeScript.
+        </div>
+
+        {/* Rodapé */}
+        <div
+          style={{
+            display: "flex",
+            color: SOFT_GRAY,
+            fontSize: 26,
+            marginTop: 44,
+          }}
+        >
+          📍 Belo Horizonte, MG · github.com/xMattRx
         </div>
       </div>
     ),
